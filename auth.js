@@ -90,6 +90,7 @@ myEmitter.emit('Profile', {name: 'Sher karim'})
  auth.register('Sher Karim')
 auth.on('register',(data) =>{
     
+    
     console.log(`registered scucceffuly ${data}`)
 }); 
 
